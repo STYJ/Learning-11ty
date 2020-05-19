@@ -1,0 +1,4 @@
+1. running npx @11ty/eleventy converts the .md and the .html files and builds them into _site. 
+2. run npx @11ty/eleventy --serve to start up hot-reloading local web server
+3. routes are automatically created based on the folders in _site
+4. Editing README.md won't refresh your browser automatically, because Browsersync requires a <body> tag in your template for live-reload to work properly.
